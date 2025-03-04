@@ -1,0 +1,183 @@
+{
+  "siteName": "Xe Cũ Cao Cấp",
+  "nav": {
+    "home": "Trang Chủ",
+    "cars": "Xe Đang Bán",
+    "blog": "Kiến Thức Xe Hơi",
+    "contact": "Liên Hệ"
+  },
+  "footer": {
+    "companyInfo": "Chúng tôi cung cấp xe đã qua sử dụng chất lượng cao, được kiểm tra kỹ lưỡng để bạn có thể mua và lái xe một cách yên tâm.",
+    "quickLinks": "Liên Kết Nhanh",
+    "contactInfo": "Thông Tin Liên Hệ",
+    "subscribe": "Đăng ký nhận bản tin",
+    "subscribeText": "Đăng ký email của chúng tôi để nhận thông tin mới nhất về xe và khuyến mãi.",
+    "yourEmail": "Email của bạn",
+    "thankYou": "Cảm ơn bạn đã đăng ký!",
+    "allRightsReserved": "Bảo lưu mọi quyền."
+  },
+  "home": {
+    "hero": {
+      "title": "Tìm Xe Đã Qua Sử Dụng Lý Tưởng Của Bạn",
+      "subtitle": "Chúng tôi cung cấp xe đã qua sử dụng chất lượng cao, được kiểm tra kỹ lưỡng để bạn có thể mua và lái xe một cách yên tâm.",
+      "browseCars": "Xem Xe",
+      "contactUs": "Liên Hệ Chúng Tôi"
+    },
+    "search": {
+      "title": "Tìm Kiếm Nhanh Xe Bạn Mong Muốn",
+      "brand": "Thương Hiệu",
+      "allBrands": "Tất Cả Thương Hiệu",
+      "priceRange": "Khoảng Giá",
+      "allPrices": "Tất Cả Giá",
+      "year": "Năm",
+      "allYears": "Tất Cả Năm",
+      "searchButton": "Tìm Kiếm"
+    },
+    "featuredCars": {
+      "title": "Xe Nổi Bật",
+      "subtitle": "Xe đã qua sử dụng chất lượng cao được chúng tôi lựa chọn cẩn thận, mỗi chiếc đều được kiểm tra và chứng nhận chuyên nghiệp",
+      "viewDetails": "Xem Chi Tiết",
+      "viewAllCars": "Xem Tất Cả Xe"
+    },
+    "whyChooseUs": {
+      "title": "Tại Sao Chọn Chúng Tôi",
+      "subtitle": "Chúng tôi cam kết cung cấp xe đã qua sử dụng chất lượng cao nhất và dịch vụ chu đáo nhất",
+      "selection": {
+        "title": "Xe Được Chọn Lọc",
+        "description": "Chúng tôi sàng lọc nghiêm ngặt từng chiếc xe để đảm bảo chỉ cung cấp xe đã qua sử dụng chất lượng cao nhất."
+      },
+      "quality": {
+        "title": "Đảm Bảo Chất Lượng",
+        "description": "Mỗi chiếc xe đều trải qua quá trình kiểm tra và chứng nhận chuyên nghiệp, với báo cáo tình trạng chi tiết."
+      },
+      "service": {
+        "title": "Dịch Vụ Sau Bán Hàng",
+        "description": "Chúng tôi cung cấp dịch vụ sau bán hàng và bảo hành toàn diện để bạn có thể mua xe mà không lo lắng."
+      }
+    },
+    "blog": {
+      "title": "Kiến Thức Xe Hơi",
+      "subtitle": "Tìm hiểu về tin tức ô tô mới nhất và hướng dẫn mua hàng",
+      "readMore": "Đọc Thêm",
+      "viewAllArticles": "Xem Tất Cả Bài Viết"
+    },
+    "cta": {
+      "title": "Sẵn Sàng Mua Xe Tiếp Theo Của Bạn?",
+      "subtitle": "Các chuyên viên tư vấn chuyên nghiệp của chúng tôi sẵn sàng giúp đỡ, làm cho trải nghiệm mua xe của bạn dễ dàng và thú vị hơn.",
+      "browseCars": "Xem Xe",
+      "contactUs": "Liên Hệ Chúng Tôi"
+    }
+  },
+  "cars": {
+    "title": "Xe Đang Bán",
+    "subtitle": "Khám phá bộ sưu tập xe đã qua sử dụng chất lượng cao của chúng tôi, mỗi chiếc đều được kiểm tra và chứng nhận chuyên nghiệp",
+    "filters": {
+      "title": "Bộ Lọc",
+      "hideFilters": "Ẩn Bộ Lọc",
+      "showFilters": "Hiện Bộ Lọc",
+      "brand": "Thương Hiệu",
+      "allBrands": "Tất Cả Thương Hiệu",
+      "priceRange": "Khoảng Giá",
+      "allPrices": "Tất Cả Giá",
+      "year": "Năm",
+      "allYears": "Tất Cả Năm",
+      "fuelType": "Loại Nhiên Liệu",
+      "allTypes": "Tất Cả Loại",
+      "gasoline": "Xăng",
+      "diesel": "Dầu Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Điện",
+      "transmission": "Hộp Số",
+      "allTransmissions": "Tất Cả Loại",
+      "automatic": "Tự Động",
+      "manual": "Số Sàn",
+      "cvt": "CVT",
+      "location": "Vị Trí",
+      "allLocations": "Tất Cả Khu Vực",
+      "resetFilters": "Đặt Lại Bộ Lọc"
+    },
+    "results": {
+      "found": "Tìm Thấy",
+      "cars": "xe",
+      "sortBy": "Sắp xếp theo:",
+      "defaultSort": "Mặc Định",
+      "priceLowToHigh": "Giá (Thấp đến Cao)",
+      "priceHighToLow": "Giá (Cao đến Thấp)",
+      "yearNewToOld": "Năm (Mới đến Cũ)",
+      "yearOldToNew": "Năm (Cũ đến Mới)",
+      "noResults": "Không tìm thấy xe phù hợp với tiêu chí của bạn",
+      "resetFilters": "Đặt Lại Bộ Lọc"
+    },
+    "carDetails": {
+      "year": "Năm",
+      "mileage": "Số Km",
+      "km": "km",
+      "fuelType": "Loại Nhiên Liệu",
+      "transmission": "Hộp Số",
+      "contactSeller": "Liên Hệ Người Bán",
+      "scheduleViewing": "Đặt Lịch Xem Xe",
+      "description": "Mô Tả Xe",
+      "features": "Tính Năng Xe",
+      "similarCars": "Xe Tương Tự",
+      "backToCars": "Quay Lại Danh Sách Xe"
+    }
+  },
+  "blog": {
+    "title": "Kiến Thức Xe Hơi",
+    "subtitle": "Tìm hiểu về tin tức ô tô mới nhất, hướng dẫn mua hàng và mẹo bảo dưỡng",
+    "search": "Tìm kiếm bài viết...",
+    "allTags": "Tất Cả Thẻ",
+    "readMore": "Đọc Thêm",
+    "noResults": "Không tìm thấy bài viết phù hợp với tiêu chí của bạn",
+    "resetFilters": "Đặt Lại Bộ Lọc",
+    "relatedArticles": "Bài Viết Liên Quan",
+    "backToBlog": "Quay Lại Danh Sách Blog"
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "subtitle": "Nếu bạn có bất kỳ câu hỏi hoặc cần thêm thông tin, vui lòng liên hệ với chúng tôi. Đội ngũ của chúng tôi luôn sẵn sàng phục vụ bạn.",
+    "contactInfo": "Thông Tin Liên Hệ",
+    "contactText": "Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với chúng tôi qua các phương thức sau. Chúng tôi sẽ phản hồi bạn sớm nhất có thể.",
+    "phone": "Điện Thoại",
+    "email": "Email",
+    "address": "Địa Chỉ",
+    "businessHours": "Giờ Làm Việc",
+    "weekdays": "Thứ Hai đến Thứ Sáu: 9:00 - 18:00",
+    "weekends": "Thứ Bảy đến Chủ Nhật: 10:00 - 16:00",
+    "followUs": "Theo Dõi Chúng Tôi",
+    "sendMessage": "Gửi Tin Nhắn",
+    "name": "Tên",
+    "yourEmail": "Email Của Bạn",
+    "subject": "Chủ Đề",
+    "selectSubject": "Vui lòng chọn chủ đề",
+    "generalInquiry": "Hỏi Đáp Chung",
+    "salesInquiry": "Hỏi Đáp Về Bán Hàng",
+    "afterSalesService": "Dịch Vụ Sau Bán Hàng",
+    "complaint": "Khiếu Nại/Đề Xuất",
+    "other": "Khác",
+    "message": "Tin Nhắn",
+    "send": "Gửi Tin Nhắn",
+    "thankYou": "Tin nhắn của bạn đã được gửi thành công. Chúng tôi sẽ liên hệ với bạn sớm!",
+    "errorMessage": "Vui lòng điền vào tất cả các trường bắt buộc",
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "q1": "Làm thế nào để đặt lịch xem xe?",
+      "a1": "Bạn có thể đặt lịch xem xe thông qua trang web của chúng tôi hoặc gọi đến đường dây nóng dịch vụ khách hàng. Chúng tôi sẽ sắp xếp chuyên viên tư vấn bán hàng chuyên nghiệp phục vụ bạn theo lịch trình của bạn.",
+      "q2": "Bạn có cung cấp các lựa chọn tài chính không?",
+      "a2": "Có, chúng tôi hợp tác với nhiều ngân hàng và tổ chức tài chính để cung cấp các lựa chọn tài chính linh hoạt. Vui lòng tham khảo ý kiến của chuyên viên tư vấn bán hàng của chúng tôi để biết chi tiết.",
+      "q3": "Xe có bảo hành không?",
+      "a3": "Tất cả xe của chúng tôi đều có ít nhất 3 tháng bảo hành cơ bản, và bạn có thể chọn gia hạn thời gian bảo hành. Chính sách bảo hành cụ thể có thể khác nhau tùy thuộc vào tình trạng xe.",
+      "q4": "Tôi có thể đổi xe cũ của mình không?",
+      "a4": "Có, chúng tôi cung cấp dịch vụ đổi xe. Chuyên viên định giá của chúng tôi sẽ đánh giá xe của bạn một cách chuyên nghiệp và đưa ra giá đổi xe hợp lý."
+    }
+  },
+  "language": {
+    "en": "English",
+    "ja": "日本語",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "zh": "中文"
+  }
+}

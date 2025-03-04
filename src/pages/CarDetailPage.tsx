@@ -2,8 +2,10 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Calendar, MapPin, Gauge, Fuel, Settings, ArrowLeft, Check } from 'lucide-react';
 import { cars } from '../data/cars';
+import { useTranslation } from 'react-i18next';
 
 const CarDetailPage: React.FC = () => {
+  const { t } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const car = cars.find(car => car.id === id);
   
@@ -17,7 +19,7 @@ const CarDetailPage: React.FC = () => {
           className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300"
         >
           <ArrowLeft className="h-5 w-5 mr-2" />
-          返回车辆列表
+          {t('cars.carDetails.backToCars')}
         </Link>
       </div>
     );
@@ -35,13 +37,13 @@ const CarDetailPage: React.FC = () => {
         <nav className="mb-8">
           <ol className="flex items-center space-x-2 text-sm text-gray-500">
             <li>
-              <Link to="/" className="hover:text-gray-700">首页</Link>
+              <Link to="/" className="hover:text-gray-700">{t('nav.home')}</Link>
             </li>
             <li>
               <span className="mx-2">/</span>
             </li>
             <li>
-              <Link to="/cars" className="hover:text-gray-700">在售车辆</Link>
+              <Link to="/cars" className="hover:text-gray-700">{t('nav.cars')}</Link>
             </li>
             <li>
               <span className="mx-2">/</span>
@@ -80,23 +82,23 @@ const CarDetailPage: React.FC = () => {
                 <div className="flex items-center">
                   <Calendar className="h-5 w-5 text-gray-500 mr-2" />
                   <div>
-                    <p className="text-sm text-gray-500">年份</p>
-                    <p className="font-medium">{car.year}年</p>
+                    <p className="text-sm text-gray-500">{t('cars.carDetails.year')}</p>
+                    <p className="font-medium">{car.year}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center">
                   <Gauge className="h-5 w-5 text-gray-500 mr-2" />
                   <div>
-                    <p className="text-sm text-gray-500">里程</p>
-                    <p className="font-medium">{car.mileage.toLocaleString()} 公里</p>
+                    <p className="text-sm text-gray-500">{t('cars.carDetails.mileage')}</p>
+                    <p className="font-medium">{car.mileage.toLocaleString()} {t('cars.carDetails.km')}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center">
                   <Fuel className="h-5 w-5 text-gray-500 mr-2" />
                   <div>
-                    <p className="text-sm text-gray-500">燃油类型</p>
+                    <p className="text-sm text-gray-500">{t('cars.carDetails.fuelType')}</p>
                     <p className="font-medium">{car.fuelType}</p>
                   </div>
                 </div>
@@ -104,7 +106,7 @@ const CarDetailPage: React.FC = () => {
                 <div className="flex items-center">
                   <Settings className="h-5 w-5 text-gray-500 mr-2" />
                   <div>
-                    <p className="text-sm text-gray-500">变速箱</p>
+                    <p className="text-sm text-gray-500">{t('cars.carDetails.transmission')}</p>
                     <p className="font-medium">{car.transmission}</p>
                   </div>
                 </div>
@@ -112,17 +114,17 @@ const CarDetailPage: React.FC = () => {
               
               <div className="space-y-4">
                 <a 
-                  href="tel:+8612345678901" 
+                  href="tel:+8112345678901" 
                   className="block text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md transition duration-300"
                 >
-                  联系卖家
+                  {t('cars.carDetails.contactSeller')}
                 </a>
                 
                 <a 
                   href="#" 
                   className="block text-center bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-4 rounded-md transition duration-300"
                 >
-                  预约看车
+                  {t('cars.carDetails.scheduleViewing')}
                 </a>
               </div>
             </div>
@@ -131,12 +133,12 @@ const CarDetailPage: React.FC = () => {
           {/* Car Description and Features */}
           <div className="p-6 md:p-8 border-t">
             <div className="mb-8">
-              <h2 className="text-xl font-bold mb-4">车辆描述</h2>
+              <h2 className="text-xl font-bold mb-4">{t('cars.carDetails.description')}</h2>
               <p className="text-gray-700">{car.description}</p>
             </div>
             
             <div>
-              <h2 className="text-xl font-bold mb-4">车辆特点</h2>
+              <h2 className="text-xl font-bold mb-4">{t('cars.carDetails.features')}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {car.features.map((feature, index) => (
                   <div key={index} className="flex items-center">
@@ -152,7 +154,7 @@ const CarDetailPage: React.FC = () => {
         {/* Similar Cars */}
         {similarCars.length > 0 && (
           <div className="mb-12">
-            <h2 className="text-2xl font-bold mb-6">类似车辆</h2>
+            <h2 className="text-2xl font-bold mb-6">{t('cars.carDetails.similarCars')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {similarCars.map(similarCar => (
                 <div key={similarCar.id} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
@@ -169,14 +171,14 @@ const CarDetailPage: React.FC = () => {
                   <div className="p-4">
                     <h3 className="text-lg font-bold mb-2">{similarCar.title}</h3>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">{similarCar.year}年</span>
-                      <span className="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">{similarCar.mileage.toLocaleString()} 公里</span>
+                      <span className="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">{similarCar.year} {t('cars.carDetails.year')}</span>
+                      <span className="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">{similarCar.mileage.toLocaleString()} {t('cars.carDetails.km')}</span>
                     </div>
                     <Link 
                       to={`/cars/${similarCar.id}`} 
                       className="block text-center bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-md transition duration-300"
                     >
-                      查看详情
+                      {t('home.featuredCars.viewDetails')}
                     </Link>
                   </div>
                 </div>
@@ -192,7 +194,7 @@ const CarDetailPage: React.FC = () => {
             className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
           >
             <ArrowLeft className="h-5 w-5 mr-2" />
-            返回车辆列表
+            {t('cars.carDetails.backToCars')}
           </Link>
         </div>
       </div>

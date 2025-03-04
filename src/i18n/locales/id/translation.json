@@ -1,0 +1,183 @@
+{
+  "siteName": "Mobil Bekas Premium",
+  "nav": {
+    "home": "Beranda",
+    "cars": "Mobil Dijual",
+    "blog": "Pengetahuan Mobil",
+    "contact": "Hubungi Kami"
+  },
+  "footer": {
+    "companyInfo": "Kami menyediakan mobil bekas berkualitas tinggi yang telah diperiksa secara menyeluruh, agar Anda dapat membeli dan mengemudi dengan tenang.",
+    "quickLinks": "Tautan Cepat",
+    "contactInfo": "Informasi Kontak",
+    "subscribe": "Berlangganan newsletter kami",
+    "subscribeText": "Berlangganan email kami untuk mendapatkan informasi terbaru tentang kendaraan dan promosi.",
+    "yourEmail": "Email Anda",
+    "thankYou": "Terima kasih telah berlangganan!",
+    "allRightsReserved": "Hak Cipta Dilindungi."
+  },
+  "home": {
+    "hero": {
+      "title": "Temukan Mobil Bekas Ideal Anda",
+      "subtitle": "Kami menyediakan mobil bekas berkualitas tinggi yang telah diperiksa secara menyeluruh, agar Anda dapat membeli dan mengemudi dengan tenang.",
+      "browseCars": "Lihat Mobil",
+      "contactUs": "Hubungi Kami"
+    },
+    "search": {
+      "title": "Cari Cepat Kendaraan yang Anda Inginkan",
+      "brand": "Merek",
+      "allBrands": "Semua Merek",
+      "priceRange": "Rentang Harga",
+      "allPrices": "Semua Harga",
+      "year": "Tahun",
+      "allYears": "Semua Tahun",
+      "searchButton": "Cari"
+    },
+    "featuredCars": {
+      "title": "Kendaraan Unggulan",
+      "subtitle": "Mobil bekas berkualitas tinggi yang kami pilih dengan hati-hati, masing-masing telah diperiksa dan disertifikasi secara profesional",
+      "viewDetails": "Lihat Detail",
+      "viewAllCars": "Lihat Semua Mobil"
+    },
+    "whyChooseUs": {
+      "title": "Mengapa Memilih Kami",
+      "subtitle": "Kami berkomitmen untuk menyediakan mobil bekas berkualitas tertinggi dan layanan yang paling penuh perhatian",
+      "selection": {
+        "title": "Kendaraan Terseleksi",
+        "description": "Kami menyaring setiap mobil dengan ketat untuk memastikan kami hanya menyediakan mobil bekas berkualitas tertinggi."
+      },
+      "quality": {
+        "title": "Jaminan Kualitas",
+        "description": "Setiap mobil menjalani pemeriksaan dan sertifikasi profesional, dengan laporan kondisi yang detail."
+      },
+      "service": {
+        "title": "Layanan Purna Jual",
+        "description": "Kami menyediakan layanan purna jual dan jaminan yang komprehensif agar Anda dapat membeli mobil tanpa khawatir."
+      }
+    },
+    "blog": {
+      "title": "Pengetahuan Mobil",
+      "subtitle": "Pelajari tentang berita otomotif terbaru dan panduan pembelian",
+      "readMore": "Baca Selengkapnya",
+      "viewAllArticles": "Lihat Semua Artikel"
+    },
+    "cta": {
+      "title": "Siap Membeli Mobil Berikutnya?",
+      "subtitle": "Konsultan profesional kami siap membantu, membuat pengalaman pembelian mobil Anda lebih mudah dan menyenangkan.",
+      "browseCars": "Lihat Mobil",
+      "contactUs": "Hubungi Kami"
+    }
+  },
+  "cars": {
+    "title": "Mobil Dijual",
+    "subtitle": "Jelajahi koleksi mobil bekas berkualitas tinggi kami, masing-masing telah diperiksa dan disertifikasi secara profesional",
+    "filters": {
+      "title": "Filter",
+      "hideFilters": "Sembunyikan Filter",
+      "showFilters": "Tampilkan Filter",
+      "brand": "Merek",
+      "allBrands": "Semua Merek",
+      "priceRange": "Rentang Harga",
+      "allPrices": "Semua Harga",
+      "year": "Tahun",
+      "allYears": "Semua Tahun",
+      "fuelType": "Jenis Bahan Bakar",
+      "allTypes": "Semua Jenis",
+      "gasoline": "Bensin",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Listrik",
+      "transmission": "Transmisi",
+      "allTransmissions": "Semua Jenis",
+      "automatic": "Otomatis",
+      "manual": "Manual",
+      "cvt": "CVT",
+      "location": "Lokasi",
+      "allLocations": "Semua Wilayah",
+      "resetFilters": "Reset Filter"
+    },
+    "results": {
+      "found": "Ditemukan",
+      "cars": "mobil",
+      "sortBy": "Urutkan berdasarkan:",
+      "defaultSort": "Default",
+      "priceLowToHigh": "Harga (Rendah ke Tinggi)",
+      "priceHighToLow": "Harga (Tinggi ke Rendah)",
+      "yearNewToOld": "Tahun (Baru ke Lama)",
+      "yearOldToNew": "Tahun (Lama ke Baru)",
+      "noResults": "Tidak ditemukan mobil yang sesuai dengan kriteria Anda",
+      "resetFilters": "Reset Filter"
+    },
+    "carDetails": {
+      "year": "Tahun",
+      "mileage": "Kilometer",
+      "km": "km",
+      "fuelType": "Jenis Bahan Bakar",
+      "transmission": "Transmisi",
+      "contactSeller": "Hubungi Penjual",
+      "scheduleViewing": "Jadwalkan Melihat",
+      "description": "Deskripsi Kendaraan",
+      "features": "Fitur Kendaraan",
+      "similarCars": "Mobil Serupa",
+      "backToCars": "Kembali ke Daftar Mobil"
+    }
+  },
+  "blog": {
+    "title": "Pengetahuan Mobil",
+    "subtitle": "Pelajari tentang berita otomotif terbaru, panduan pembelian, dan tips perawatan",
+    "search": "Cari artikel...",
+    "allTags": "Semua Tag",
+    "readMore": "Baca Selengkapnya",
+    "noResults": "Tidak ditemukan artikel yang sesuai dengan kriteria Anda",
+    "resetFilters": "Reset Filter",
+    "relatedArticles": "Artikel Terkait",
+    "backToBlog": "Kembali ke Daftar Blog"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Jika Anda memiliki pertanyaan atau membutuhkan informasi lebih lanjut, jangan ragu untuk menghubungi kami. Tim kami siap melayani Anda.",
+    "contactInfo": "Informasi Kontak",
+    "contactText": "Jika Anda memiliki pertanyaan, silakan hubungi kami melalui metode berikut. Kami akan membalas Anda sesegera mungkin.",
+    "phone": "Telepon",
+    "email": "Email",
+    "address": "Alamat",
+    "businessHours": "Jam Kerja",
+    "weekdays": "Senin hingga Jumat: 9:00 - 18:00",
+    "weekends": "Sabtu hingga Minggu: 10:00 - 16:00",
+    "followUs": "Ikuti Kami",
+    "sendMessage": "Kirim Pesan",
+    "name": "Nama",
+    "yourEmail": "Email Anda",
+    "subject": "Subjek",
+    "selectSubject": "Silakan pilih subjek",
+    "generalInquiry": "Pertanyaan Umum",
+    "salesInquiry": "Pertanyaan Penjualan",
+    "afterSalesService": "Layanan Purna Jual",
+    "complaint": "Keluhan/Saran",
+    "other": "Lainnya",
+    "message": "Pesan",
+    "send": "Kirim Pesan",
+    "thankYou": "Pesan Anda telah berhasil dikirim. Kami akan segera menghubungi Anda!",
+    "errorMessage": "Silakan isi semua kolom yang diperlukan",
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": "Bagaimana cara menjadwalkan melihat mobil?",
+      "a1": "Anda dapat menjadwalkan melihat mobil melalui situs web kami atau dengan menelepon hotline layanan pelanggan kami. Kami akan mengatur konsultan penjualan profesional untuk melayani Anda berdasarkan jadwal Anda.",
+      "q2": "Apakah Anda menawarkan opsi pembiayaan?",
+      "a2": "Ya, kami bekerja sama dengan beberapa bank dan lembaga keuangan untuk menyediakan opsi pembiayaan yang fleksibel. Silakan konsultasikan dengan konsultan penjualan kami untuk detailnya.",
+      "q3": "Apakah kendaraan dilengkapi dengan garansi?",
+      "a3": "Semua kendaraan kami dilengkapi dengan garansi dasar minimal 3 bulan, dan Anda dapat memilih untuk memperpanjang masa garansi. Kebijakan garansi spesifik dapat bervariasi tergantung pada kondisi kendaraan.",
+      "q4": "Bisakah saya menukar mobil lama saya?",
+      "a4": "Ya, kami menawarkan layanan tukar tambah. Penilai kami akan mengevaluasi kendaraan Anda secara profesional dan menawarkan harga tukar tambah yang wajar."
+    }
+  },
+  "language": {
+    "en": "English",
+    "ja": "日本語",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "zh": "中文"
+  }
+}

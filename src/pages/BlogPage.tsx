@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Tag } from 'lucide-react';
 import { blogPosts } from '../data/blogPosts';
+import { useTranslation } from 'react-i18next';
 
 const BlogPage: React.FC = () => {
+  const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedTag, setSelectedTag] = useState('');
   
@@ -29,8 +31,8 @@ const BlogPage: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Page Header */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold mb-4">汽车知识</h1>
-          <p className="text-gray-600 max-w-2xl mx-auto">了解最新的汽车资讯、购车指南和维护技巧</p>
+          <h1 className="text-3xl font-bold mb-4">{t('blog.title')}</h1>
+          <p className="text-gray-600 max-w-2xl mx-auto">{t('blog.subtitle')}</p>
         </div>
         
         {/* Search and Filter */}
@@ -40,7 +42,7 @@ const BlogPage: React.FC = () => {
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="搜索文章..."
+                  placeholder={t('blog.search')}
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="w-full pl-10 pr-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
@@ -57,7 +59,7 @@ const BlogPage: React.FC = () => {
                 onChange={(e) => setSelectedTag(e.target.value)}
                 className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
               >
-                <option value="">所有标签</option>
+                <option value="">{t('blog.allTags')}</option>
                 {allTags.map(tag => (
                   <option key={tag} value={tag}>{tag}</option>
                 ))}
@@ -95,7 +97,7 @@ const BlogPage: React.FC = () => {
                       {post.tags.map(tag => (
                         <span 
                           key={tag} 
-                          className="inline-flex items-center bg-blue-50 text-blue-700 px-2 py-1  rounded text-sm"
+                          className="inline-flex items-center bg-blue-50 text-blue-700 px-2 py-1 rounded text-sm cursor-pointer"
                           onClick={() => setSelectedTag(tag)}
                         >
                           <Tag className="h-3 w-3 mr-1" />
@@ -107,7 +109,7 @@ const BlogPage: React.FC = () => {
                       to={`/blog/${post.id}`} 
                       className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
                     >
-                      阅读更多 →
+                      {t('blog.readMore')} →
                     </Link>
                   </div>
                 </div>
@@ -116,7 +118,7 @@ const BlogPage: React.FC = () => {
           </div>
         ) : (
           <div className="text-center py-12 bg-white rounded-lg shadow">
-            <p className="text-xl text-gray-600">没有找到符合条件的文章</p>
+            <p className="text-xl text-gray-600">{t('blog.noResults')}</p>
             <button 
               onClick={() => {
                 setSearchTerm('');
@@ -124,7 +126,7 @@ const BlogPage: React.FC = () => {
               }}
               className="mt-4 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300"
             >
-              重置筛选条件
+              {t('blog.resetFilters')}
             </button>
           </div>
         )}

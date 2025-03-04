@@ -2,8 +2,10 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, User, Tag } from 'lucide-react';
 import { blogPosts } from '../data/blogPosts';
+import { useTranslation } from 'react-i18next';
 
 const BlogPostPage: React.FC = () => {
+  const { t } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const post = blogPosts.find(post => post.id === id);
   
@@ -17,7 +19,7 @@ const BlogPostPage: React.FC = () => {
           className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300"
         >
           <ArrowLeft className="h-5 w-5 mr-2" />
-          返回博客列表
+          {t('blog.backToBlog')}
         </Link>
       </div>
     );
@@ -35,13 +37,13 @@ const BlogPostPage: React.FC = () => {
         <nav className="mb-8">
           <ol className="flex items-center space-x-2 text-sm text-gray-500">
             <li>
-              <Link to="/" className="hover:text-gray-700">首页</Link>
+              <Link to="/" className="hover:text-gray-700">{t('nav.home')}</Link>
             </li>
             <li>
               <span className="mx-2">/</span>
             </li>
             <li>
-              <Link to="/blog" className="hover:text-gray-700">汽车知识</Link>
+              <Link to="/blog" className="hover:text-gray-700">{t('nav.blog')}</Link>
             </li>
             <li>
               <span className="mx-2">/</span>
@@ -98,7 +100,7 @@ const BlogPostPage: React.FC = () => {
         {/* Related Posts */}
         {relatedPosts.length > 0 && (
           <div className="mb-12">
-            <h2 className="text-2xl font-bold mb-6">相关文章</h2>
+            <h2 className="text-2xl font-bold mb-6">{t('blog.relatedArticles')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {relatedPosts.map(relatedPost => (
                 <div key={relatedPost.id} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
@@ -123,7 +125,7 @@ const BlogPostPage: React.FC = () => {
                       to={`/blog/${relatedPost.id}`} 
                       className="text-blue-600 hover:text-blue-800 text-sm font-medium"
                     >
-                      阅读更多 →
+                      {t('blog.readMore')} →
                     </Link>
                   </div>
                 </div>
@@ -139,7 +141,7 @@ const BlogPostPage: React.FC = () => {
             className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
           >
             <ArrowLeft className="h-5 w-5 mr-2" />
-            返回博客列表
+            {t('blog.backToBlog')}
           </Link>
         </div>
       </div>

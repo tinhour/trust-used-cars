@@ -1,0 +1,183 @@
+{
+  "siteName": "Premium Used Cars",
+  "nav": {
+    "home": "Home",
+    "cars": "Cars for Sale",
+    "blog": "Car Knowledge",
+    "contact": "Contact Us"
+  },
+  "footer": {
+    "companyInfo": "We provide high-quality, thoroughly inspected used cars for worry-free purchasing and driving.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "subscribe": "Subscribe to our newsletter",
+    "subscribeText": "Subscribe to our email for the latest vehicle information and promotions.",
+    "yourEmail": "Your email",
+    "thankYou": "Thank you for subscribing!",
+    "allRightsReserved": "All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title": "Find Your Ideal Used Car",
+      "subtitle": "We offer high-quality, thoroughly inspected used cars for worry-free purchasing and driving.",
+      "browseCars": "Browse Cars",
+      "contactUs": "Contact Us"
+    },
+    "search": {
+      "title": "Quickly Search for Your Desired Vehicle",
+      "brand": "Brand",
+      "allBrands": "All Brands",
+      "priceRange": "Price Range",
+      "allPrices": "All Prices",
+      "year": "Year",
+      "allYears": "All Years",
+      "searchButton": "Search"
+    },
+    "featuredCars": {
+      "title": "Featured Vehicles",
+      "subtitle": "Our carefully selected high-quality used cars, each professionally inspected and certified",
+      "viewDetails": "View Details",
+      "viewAllCars": "View All Cars"
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "subtitle": "We are committed to providing the highest quality used cars and the most attentive service",
+      "selection": {
+        "title": "Selected Vehicles",
+        "description": "We strictly screen each car to ensure we only provide the highest quality used cars."
+      },
+      "quality": {
+        "title": "Quality Guarantee",
+        "description": "Each car undergoes professional inspection and certification, with detailed condition reports."
+      },
+      "service": {
+        "title": "After-Sales Service",
+        "description": "We provide comprehensive after-sales service and guarantees for worry-free car purchases."
+      }
+    },
+    "blog": {
+      "title": "Car Knowledge",
+      "subtitle": "Learn about the latest automotive news and purchasing guides",
+      "readMore": "Read More",
+      "viewAllArticles": "View All Articles"
+    },
+    "cta": {
+      "title": "Ready to Buy Your Next Car?",
+      "subtitle": "Our professional consultants are ready to help make your car buying experience easier and more enjoyable.",
+      "browseCars": "Browse Cars",
+      "contactUs": "Contact Us"
+    }
+  },
+  "cars": {
+    "title": "Cars for Sale",
+    "subtitle": "Browse our selection of high-quality used cars, each professionally inspected and certified",
+    "filters": {
+      "title": "Filters",
+      "hideFilters": "Hide Filters",
+      "showFilters": "Show Filters",
+      "brand": "Brand",
+      "allBrands": "All Brands",
+      "priceRange": "Price Range",
+      "allPrices": "All Prices",
+      "year": "Year",
+      "allYears": "All Years",
+      "fuelType": "Fuel Type",
+      "allTypes": "All Types",
+      "gasoline": "Gasoline",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Electric",
+      "transmission": "Transmission",
+      "allTransmissions": "All Types",
+      "automatic": "Automatic",
+      "manual": "Manual",
+      "cvt": "CVT",
+      "location": "Location",
+      "allLocations": "All Locations",
+      "resetFilters": "Reset Filters"
+    },
+    "results": {
+      "found": "Found",
+      "cars": "cars",
+      "sortBy": "Sort by:",
+      "defaultSort": "Default",
+      "priceLowToHigh": "Price (Low to High)",
+      "priceHighToLow": "Price (High to Low)",
+      "yearNewToOld": "Year (New to Old)",
+      "yearOldToNew": "Year (Old to New)",
+      "noResults": "No cars found matching your criteria",
+      "resetFilters": "Reset Filters"
+    },
+    "carDetails": {
+      "year": "Year",
+      "mileage": "Mileage",
+      "km": "km",
+      "fuelType": "Fuel Type",
+      "transmission": "Transmission",
+      "contactSeller": "Contact Seller",
+      "scheduleViewing": "Schedule Viewing",
+      "description": "Vehicle Description",
+      "features": "Vehicle Features",
+      "similarCars": "Similar Cars",
+      "backToCars": "Back to Cars List"
+    }
+  },
+  "blog": {
+    "title": "Car Knowledge",
+    "subtitle": "Learn about the latest automotive news, purchasing guides, and maintenance tips",
+    "search": "Search articles...",
+    "allTags": "All Tags",
+    "readMore": "Read More",
+    "noResults": "No articles found matching your criteria",
+    "resetFilters": "Reset Filters",
+    "relatedArticles": "Related Articles",
+    "backToBlog": "Back to Blog List"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "If you have any questions or need more information, please feel free to contact us. Our team is dedicated to serving you.",
+    "contactInfo": "Contact Information",
+    "contactText": "If you have any questions, please contact us through the following methods. We will reply to you as soon as possible.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "businessHours": "Business Hours",
+    "weekdays": "Monday to Friday: 9:00 - 18:00",
+    "weekends": "Saturday to Sunday: 10:00 - 16:00",
+    "followUs": "Follow Us",
+    "sendMessage": "Send Message",
+    "name": "Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "selectSubject": "Please select a subject",
+    "generalInquiry": "General Inquiry",
+    "salesInquiry": "Sales Inquiry",
+    "afterSalesService": "After-Sales Service",
+    "complaint": "Complaint/Suggestion",
+    "other": "Other",
+    "message": "Message",
+    "send": "Send Message",
+    "thankYou": "Your message has been sent successfully. We will contact you soon!",
+    "errorMessage": "Please fill in all required fields",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How do I schedule a car viewing?",
+      "a1": "You can schedule a car viewing through our website or by calling our customer service hotline. We will arrange a professional sales consultant to serve you based on your schedule.",
+      "q2": "Do you offer financing options?",
+      "a2": "Yes, we cooperate with multiple banks and financial institutions to provide flexible financing options. Please consult our sales consultants for details.",
+      "q3": "Do the vehicles come with a warranty?",
+      "a3": "All our vehicles come with at least a 3-month basic warranty, and you can choose to extend the warranty period. Specific warranty policies may vary depending on the vehicle condition.",
+      "q4": "Can I trade in my old car?",
+      "a4": "Yes, we offer trade-in services. Our appraisers will professionally evaluate your vehicle and offer a reasonable trade-in price."
+    }
+  },
+  "language": {
+    "en": "English",
+    "ja": "日本語",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "zh": "中文"
+  }
+}

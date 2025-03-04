@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Car, Mail, Phone, MapPin, Send } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
+  const { t } = useTranslation();
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,28 +31,28 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center mb-4">
               <Car className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">优选二手车</span>
+              <span className="ml-2 text-xl font-bold">{t('siteName')}</span>
             </Link>
             <p className="text-gray-400 mb-4">
-              我们提供高品质、经过严格检测的二手车，让您安心购车，放心驾驶。
+              {t('footer.companyInfo')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition duration-300">
-                <span className="sr-only">微信</span>
+                <span className="sr-only">WeChat</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 01.213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.328.328 0 00.186-.059l2.114-1.225a.866.866 0 01.257-.079.784.784 0 01.227.034c.954.279 1.99.431 3.067.431h.52c-.21-.479-.332-1-.332-1.542 0-3.648 3.553-6.608 7.932-6.608h.395C16.748 5.128 13.058 2.188 8.691 2.188zm10.25 6.516c-.725 0-1.313.588-1.313 1.313 0 .726.588 1.314 1.313 1.314.726 0 1.313-.588 1.313-1.314 0-.725-.587-1.313-1.313-1.313zm-6.824 0c-.726 0-1.314.588-1.314 1.313 0 .726.588 1.314 1.314 1.314.725 0 1.313-.588 1.313-1.314 0-.725-.588-1.313-1.313-1.313zm6.824 3.536c-5.043 0-9.153 3.412-9.153 7.611 0 4.198 4.11 7.61 9.153 7.61 1.081 0 2.12-.152 3.076-.432a.783.783 0 01.228-.033.87.87 0 01.257.078l2.114 1.225c.057.039.121.059.186.059.16 0 .29-.132.29-.295 0-.072-.03-.143-.048-.213l-.391-1.479a.59.59 0 01.213-.665c1.832-1.348 3.002-3.339 3.002-5.551 0-4.199-4.11-7.611-9.153-7.611h-.774zm-3.427 3.348c-.725 0-1.313.587-1.313 1.313 0 .725.588 1.313 1.313 1.313.726 0 1.314-.588 1.314-1.313 0-.726-.588-1.313-1.314-1.313zm6.824 0c-.726 0-1.314.587-1.314 1.313 0 .725.588 1.313 1.314 1.313.725 0 1.313-.588 1.313-1.313 0-.726-.588-1.313-1.313-1.313z" />
                 </svg>
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition duration-300">
-                <span className="sr-only">微博</span>
+                <span className="sr-only">Line</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M10.098 20.323c-3.977 0-7.152-1.892-7.152-4.616 0-1.345.875-2.902 2.334-4.368 1.963-1.965 4.246-2.862 5.189-2.007.513.465.587 1.27.244 2.224-.184.504.152.235.152.235s.671-.262 1.182-.339c.512-.078 1.099.075 1.099.075s-.513.873-.61 1.481c-.101.606.05 1.436.05 1.436s.408-.494 1.298-.686c.889-.193 1.92.244 1.92.244s-.342.873-.889 1.48c-.547.607-1.252 1.214-1.252 1.214s.136.202.136.607c0 2.225-3.09 4.02-7.7 4.02zm7.323-3.772c.136-.607-.17-1.138-.17-1.138s-.036-.076-.072-.076c-.038 0-.074.076-.074.076-.136.404-.477.674-.477.674s-.037.04-.037.075c0 .038.037.077.037.077.341.265.793.312.793.312zm.477-1.214c.068-.202-.068-.37-.068-.37s-.02-.02-.039-.02c-.02 0-.038.02-.038.02-.068.135-.204.224-.204.224s-.02.02-.02.039c0 .02.02.038.02.038.17.135.35.17.35.17zm2.894-2.902c-.272-.607-.922-.876-.922-.876s-.068-.04-.136-.02c-.068.02-.088.088-.088.088-.204.607-.068 1.062-.068 1.062s.02.068.068.088c.068.02.117-.02.117-.02.477-.135.75-.02.75-.02s.068.02.117-.02c.048-.04.048-.108.048-.108.068-.202.114-.174.114-.174zm-1.124.296c-.136-.272-.442-.39-.442-.39s-.037-.02-.074 0c-.038.02-.057.057-.057.057-.101.272-.038.485-.038.485s.02.038.038.057c.038.02.076 0 .076 0 .229-.057.36 0 .36 0s.038.02.076 0c.038-.02.038-.057.038-.057.02-.095.023-.152.023-.152z" />
+                  <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"></path>
                 </svg>
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition duration-300">
-                <span className="sr-only">抖音</span>
+                <span className="sr-only">X</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                  <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
                 </svg>
               </a>
             </div>
@@ -58,59 +60,53 @@ const Footer: React.FC = () => {
           
           {/* Quick Links */}
           <div className="col-span-1">
-            <h3 className="text-lg font-bold mb-4">快速链接</h3>
+            <h3 className="text-lg font-bold mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white transition duration-300">首页</Link>
+                <Link to="/" className="text-gray-400 hover:text-white transition duration-300">{t('nav.home')}</Link>
               </li>
               <li>
-                <Link to="/cars" className="text-gray-400 hover:text-white transition duration-300">在售车辆</Link>
+                <Link to="/cars" className="text-gray-400 hover:text-white transition duration-300">{t('nav.cars')}</Link>
               </li>
               <li>
-                <Link to="/blog" className="text-gray-400 hover:text-white transition duration-300">汽车知识</Link>
+                <Link to="/blog" className="text-gray-400 hover:text-white transition duration-300">{t('nav.blog')}</Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-400 hover:text-white transition duration-300">联系我们</Link>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition duration-300">关于我们</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition duration-300">隐私政策</a>
+                <Link to="/contact" className="text-gray-400 hover:text-white transition duration-300">{t('nav.contact')}</Link>
               </li>
             </ul>
           </div>
           
           {/* Contact Info */}
           <div className="col-span-1">
-            <h3 className="text-lg font-bold mb-4">联系方式</h3>
+            <h3 className="text-lg font-bold mb-4">{t('footer.contactInfo')}</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-gray-400 mr-2 mt-0.5" />
-                <span className="text-gray-400">+86 123 4567 8901</span>
+                <span className="text-gray-400">+81 3-1234-5678</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-gray-400 mr-2 mt-0.5" />
-                <span className="text-gray-400">info@youxuanershouche.com</span>
+                <span className="text-gray-400">info@premiumusedcars.jp</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-gray-400 mr-2 mt-0.5" />
-                <span className="text-gray-400">上海市浦东新区张江高科技园区博云路123号</span>
+                <span className="text-gray-400">1-1-1 Marunouchi, Chiyoda-ku, Tokyo, Japan 100-0005</span>
               </li>
             </ul>
           </div>
           
           {/* Newsletter */}
           <div className="col-span-1">
-            <h3 className="text-lg font-bold mb-4">订阅我们</h3>
-            <p className="text-gray-400 mb-4">订阅我们的电子邮件，获取最新的车辆信息和促销活动。</p>
+            <h3 className="text-lg font-bold mb-4">{t('footer.subscribe')}</h3>
+            <p className="text-gray-400 mb-4">{t('footer.subscribeText')}</p>
             <form onSubmit={handleSubscribe} className="space-y-2">
               <div className="flex">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="您的电子邮箱"
+                  placeholder={t('footer.yourEmail')}
                   className="flex-grow px-4 py-2 rounded-l-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
@@ -122,7 +118,7 @@ const Footer: React.FC = () => {
                 </button>
               </div>
               {subscribed && (
-                <p className="text-green-400 text-sm">感谢您的订阅！</p>
+                <p className="text-green-400 text-sm">{t('footer.thankYou')}</p>
               )}
             </form>
           </div>
@@ -130,7 +126,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} 优选二手车. 保留所有权利.
+            &copy; {new Date().getFullYear()} {t('siteName')}. {t('footer.allRightsReserved')}
           </p>
         </div>
       </div>

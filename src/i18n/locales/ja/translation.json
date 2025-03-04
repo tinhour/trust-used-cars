@@ -1,0 +1,183 @@
+{
+  "siteName": "プレミアム中古車",
+  "nav": {
+    "home": "ホーム",
+    "cars": "販売中の車両",
+    "blog": "自動車知識",
+    "contact": "お問い合わせ"
+  },
+  "footer": {
+    "companyInfo": "当社は高品質で徹底的に検査された中古車を提供し、安心して購入・運転できるようサポートします。",
+    "quickLinks": "クイックリンク",
+    "contactInfo": "連絡先情報",
+    "subscribe": "ニュースレターを購読する",
+    "subscribeText": "最新の車両情報やプロモーションを受け取るには、メールアドレスをご登録ください。",
+    "yourEmail": "メールアドレス",
+    "thankYou": "ご登録ありがとうございます！",
+    "allRightsReserved": "全著作権所有。"
+  },
+  "home": {
+    "hero": {
+      "title": "理想の中古車を見つけよう",
+      "subtitle": "当社は高品質で徹底的に検査された中古車を提供し、安心して購入・運転できるようサポートします。",
+      "browseCars": "車両を閲覧",
+      "contactUs": "お問い合わせ"
+    },
+    "search": {
+      "title": "希望の車両をすぐに検索",
+      "brand": "ブランド",
+      "allBrands": "すべてのブランド",
+      "priceRange": "価格帯",
+      "allPrices": "すべての価格",
+      "year": "年式",
+      "allYears": "すべての年式",
+      "searchButton": "検索"
+    },
+    "featuredCars": {
+      "title": "おすすめ車両",
+      "subtitle": "厳選された高品質の中古車は、すべてプロによる検査と認証を受けています",
+      "viewDetails": "詳細を見る",
+      "viewAllCars": "すべての車両を見る"
+    },
+    "whyChooseUs": {
+      "title": "当社を選ぶ理由",
+      "subtitle": "最高品質の中古車と最も丁寧なサービスの提供に努めています",
+      "selection": {
+        "title": "厳選された車両",
+        "description": "各車両を厳しく選別し、最高品質の中古車のみを提供しています。"
+      },
+      "quality": {
+        "title": "品質保証",
+        "description": "各車両はプロによる検査と認証を受け、詳細な状態レポートを提供しています。"
+      },
+      "service": {
+        "title": "アフターサービス",
+        "description": "包括的なアフターサービスと保証を提供し、安心して車を購入いただけます。"
+      }
+    },
+    "blog": {
+      "title": "自動車知識",
+      "subtitle": "最新の自動車ニュースや購入ガイドをご覧ください",
+      "readMore": "続きを読む",
+      "viewAllArticles": "すべての記事を見る"
+    },
+    "cta": {
+      "title": "次の車を購入する準備はできていますか？",
+      "subtitle": "当社のプロフェッショナルなコンサルタントが、より簡単で楽しい車の購入体験をサポートします。",
+      "browseCars": "車両を閲覧",
+      "contactUs": "お問い合わせ"
+    }
+  },
+  "cars": {
+    "title": "販売中の車両",
+    "subtitle": "プロによる検査と認証を受けた高品質の中古車をご覧ください",
+    "filters": {
+      "title": "フィルター",
+      "hideFilters": "フィルターを隠す",
+      "showFilters": "フィルターを表示",
+      "brand": "ブランド",
+      "allBrands": "すべてのブランド",
+      "priceRange": "価格帯",
+      "allPrices": "すべての価格",
+      "year": "年式",
+      "allYears": "すべての年式",
+      "fuelType": "燃料タイプ",
+      "allTypes": "すべてのタイプ",
+      "gasoline": "ガソリン",
+      "diesel": "ディーゼル",
+      "hybrid": "ハイブリッド",
+      "electric": "電気",
+      "transmission": "トランスミッション",
+      "allTransmissions": "すべてのタイプ",
+      "automatic": "オートマチック",
+      "manual": "マニュアル",
+      "cvt": "CVT",
+      "location": "所在地",
+      "allLocations": "すべての地域",
+      "resetFilters": "フィルターをリセット"
+    },
+    "results": {
+      "found": "見つかった車両",
+      "cars": "台",
+      "sortBy": "並び替え:",
+      "defaultSort": "デフォルト",
+      "priceLowToHigh": "価格（安い順）",
+      "priceHighToLow": "価格（高い順）",
+      "yearNewToOld": "年式（新しい順）",
+      "yearOldToNew": "年式（古い順）",
+      "noResults": "条件に一致する車両が見つかりませんでした",
+      "resetFilters": "フィルターをリセット"
+    },
+    "carDetails": {
+      "year": "年式",
+      "mileage": "走行距離",
+      "km": "km",
+      "fuelType": "燃料タイプ",
+      "transmission": "トランスミッション",
+      "contactSeller": "販売店に連絡",
+      "scheduleViewing": "内覧予約",
+      "description": "車両説明",
+      "features": "車両特徴",
+      "similarCars": "類似車両",
+      "backToCars": "車両一覧に戻る"
+    }
+  },
+  "blog": {
+    "title": "自動車知識",
+    "subtitle": "最新の自動車ニュース、購入ガイド、メンテナンスのヒントをご覧ください",
+    "search": "記事を検索...",
+    "allTags": "すべてのタグ",
+    "readMore": "続きを読む",
+    "noResults": "条件に一致する記事が見つかりませんでした",
+    "resetFilters": "フィルターをリセット",
+    "relatedArticles": "関連記事",
+    "backToBlog": "ブログ一覧に戻る"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご質問やさらに詳しい情報が必要な場合は、お気軽にお問い合わせください。当社のチームが誠心誠意対応いたします。",
+    "contactInfo": "連絡先情報",
+    "contactText": "ご質問がある場合は、以下の方法でお問い合わせください。できるだけ早くご返信いたします。",
+    "phone": "電話",
+    "email": "メール",
+    "address": "住所",
+    "businessHours": "営業時間",
+    "weekdays": "月曜日〜金曜日: 9:00 - 18:00",
+    "weekends": "土曜日〜日曜日: 10:00 - 16:00",
+    "followUs": "フォローする",
+    "sendMessage": "メッセージを送信",
+    "name": "お名前",
+    "yourEmail": "メールアドレス",
+    "subject": "件名",
+    "selectSubject": "件名を選択してください",
+    "generalInquiry": "一般的なお問い合わせ",
+    "salesInquiry": "販売に関するお問い合わせ",
+    "afterSalesService": "アフターサービス",
+    "complaint": "苦情/提案",
+    "other": "その他",
+    "message": "メッセージ",
+    "send": "メッセージを送信",
+    "thankYou": "メッセージが正常に送信されました。すぐにご連絡いたします！",
+    "errorMessage": "すべての必須フィールドにご記入ください",
+    "faq": {
+      "title": "よくある質問",
+      "q1": "車の内覧はどのように予約できますか？",
+      "a1": "当社のウェブサイトまたはカスタマーサービスホットラインを通じて車の内覧を予約できます。お客様のスケジュールに合わせて、プロの販売コンサルタントがご対応いたします。",
+      "q2": "ファイナンスオプションはありますか？",
+      "a2": "はい、複数の銀行や金融機関と提携して柔軟なファイナンスオプションを提供しています。詳細は販売コンサルタントにお問い合わせください。",
+      "q3": "車両には保証がついていますか？",
+      "a3": "当社のすべての車両には少なくとも3ヶ月の基本保証が付いており、保証期間を延長することもできます。具体的な保証ポリシーは車両の状態によって異なる場合があります。",
+      "q4": "古い車を下取りに出せますか？",
+      "a4": "はい、下取りサービスを提供しています。当社の査定士がお客様の車両を専門的に評価し、適正な下取り価格を提示いたします。"
+    }
+  },
+  "language": {
+    "en": "English",
+    "ja": "日本語",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "zh": "中文"
+  }
+}

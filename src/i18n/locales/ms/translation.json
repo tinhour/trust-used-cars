@@ -1,0 +1,183 @@
+{
+  "siteName": "Kereta Terpakai Premium",
+  "nav": {
+    "home": "Laman Utama",
+    "cars": "Kereta Untuk Dijual",
+    "blog": "Pengetahuan Kereta",
+    "contact": "Hubungi Kami"
+  },
+  "footer": {
+    "companyInfo": "Kami menyediakan kereta terpakai berkualiti tinggi yang telah diperiksa secara menyeluruh, supaya anda boleh membeli dan memandu dengan tenang.",
+    "quickLinks": "Pautan Pantas",
+    "contactInfo": "Maklumat Hubungan",
+    "subscribe": "Langgan surat berita kami",
+    "subscribeText": "Langgan e-mel kami untuk mendapatkan maklumat terkini tentang kenderaan dan promosi.",
+    "yourEmail": "E-mel anda",
+    "thankYou": "Terima kasih kerana melanggan!",
+    "allRightsReserved": "Hak Cipta Terpelihara."
+  },
+  "home": {
+    "hero": {
+      "title": "Cari Kereta Terpakai Ideal Anda",
+      "subtitle": "Kami menyediakan kereta terpakai berkualiti tinggi yang telah diperiksa secara menyeluruh, supaya anda boleh membeli dan memandu dengan tenang.",
+      "browseCars": "Lihat Kereta",
+      "contactUs": "Hubungi Kami"
+    },
+    "search": {
+      "title": "Cari Cepat Kenderaan Yang Anda Inginkan",
+      "brand": "Jenama",
+      "allBrands": "Semua Jenama",
+      "priceRange": "Julat Harga",
+      "allPrices": "Semua Harga",
+      "year": "Tahun",
+      "allYears": "Semua Tahun",
+      "searchButton": "Cari"
+    },
+    "featuredCars": {
+      "title": "Kenderaan Pilihan",
+      "subtitle": "Kereta terpakai berkualiti tinggi yang kami pilih dengan teliti, setiap satu telah diperiksa dan disahkan secara profesional",
+      "viewDetails": "Lihat Butiran",
+      "viewAllCars": "Lihat Semua Kereta"
+    },
+    "whyChooseUs": {
+      "title": "Mengapa Pilih Kami",
+      "subtitle": "Kami komited untuk menyediakan kereta terpakai berkualiti tertinggi dan perkhidmatan yang paling prihatin",
+      "selection": {
+        "title": "Kenderaan Terpilih",
+        "description": "Kami menyaring setiap kereta dengan ketat untuk memastikan kami hanya menyediakan kereta terpakai berkualiti tertinggi."
+      },
+      "quality": {
+        "title": "Jaminan Kualiti",
+        "description": "Setiap kereta menjalani pemeriksaan dan pensijilan profesional, dengan laporan keadaan yang terperinci."
+      },
+      "service": {
+        "title": "Perkhidmatan Selepas Jualan",
+        "description": "Kami menyediakan perkhidmatan selepas jualan dan jaminan yang komprehensif supaya anda boleh membeli kereta tanpa kebimbangan."
+      }
+    },
+    "blog": {
+      "title": "Pengetahuan Kereta",
+      "subtitle": "Pelajari tentang berita automotif terkini dan panduan pembelian",
+      "readMore": "Baca Lagi",
+      "viewAllArticles": "Lihat Semua Artikel"
+    },
+    "cta": {
+      "title": "Bersedia Untuk Membeli Kereta Seterusnya?",
+      "subtitle": "Perunding profesional kami sedia membantu, menjadikan pengalaman pembelian kereta anda lebih mudah dan menyeronokkan.",
+      "browseCars": "Lihat Kereta",
+      "contactUs": "Hubungi Kami"
+    }
+  },
+  "cars": {
+    "title": "Kereta Untuk Dijual",
+    "subtitle": "Terokai koleksi kereta terpakai berkualiti tinggi kami, setiap satu telah diperiksa dan disahkan secara profesional",
+    "filters": {
+      "title": "Penapis",
+      "hideFilters": "Sembunyikan Penapis",
+      "showFilters": "Tunjukkan Penapis",
+      "brand": "Jenama",
+      "allBrands": "Semua Jenama",
+      "priceRange": "Julat Harga",
+      "allPrices": "Semua Harga",
+      "year": "Tahun",
+      "allYears": "Semua Tahun",
+      "fuelType": "Jenis Bahan Api",
+      "allTypes": "Semua Jenis",
+      "gasoline": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hibrid",
+      "electric": "Elektrik",
+      "transmission": "Transmisi",
+      "allTransmissions": "Semua Jenis",
+      "automatic": "Automatik",
+      "manual": "Manual",
+      "cvt": "CVT",
+      "location": "Lokasi",
+      "allLocations": "Semua Kawasan",
+      "resetFilters": "Set Semula Penapis"
+    },
+    "results": {
+      "found": "Dijumpai",
+      "cars": "kereta",
+      "sortBy": "Susun mengikut:",
+      "defaultSort": "Lalai",
+      "priceLowToHigh": "Harga (Rendah ke Tinggi)",
+      "priceHighToLow": "Harga (Tinggi ke Rendah)",
+      "yearNewToOld": "Tahun (Baru ke Lama)",
+      "yearOldToNew": "Tahun (Lama ke Baru)",
+      "noResults": "Tiada kereta yang ditemui yang sepadan dengan kriteria anda",
+      "resetFilters": "Set Semula Penapis"
+    },
+    "carDetails": {
+      "year": "Tahun",
+      "mileage": "Jarak Perjalanan",
+      "km": "km",
+      "fuelType": "Jenis Bahan Api",
+      "transmission": "Transmisi",
+      "contactSeller": "Hubungi Penjual",
+      "scheduleViewing": "Jadualkan Tontonan",
+      "description": "Penerangan Kenderaan",
+      "features": "Ciri-ciri Kenderaan",
+      "similarCars": "Kereta Serupa",
+      "backToCars": "Kembali ke Senarai Kereta"
+    }
+  },
+  "blog": {
+    "title": "Pengetahuan Kereta",
+    "subtitle": "Pelajari tentang berita automotif terkini, panduan pembelian, dan petua penyelenggaraan",
+    "search": "Cari artikel...",
+    "allTags": "Semua Tag",
+    "readMore": "Baca Lagi",
+    "noResults": "Tiada artikel yang ditemui yang sepadan dengan kriteria anda",
+    "resetFilters": "Set Semula Penapis",
+    "relatedArticles": "Artikel Berkaitan",
+    "backToBlog": "Kembali ke Senarai Blog"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Jika anda mempunyai sebarang pertanyaan atau memerlukan maklumat lanjut, sila hubungi kami. Pasukan kami berdedikasi untuk melayani anda.",
+    "contactInfo": "Maklumat Hubungan",
+    "contactText": "Jika anda mempunyai sebarang pertanyaan, sila hubungi kami melalui kaedah berikut. Kami akan membalas anda secepat mungkin.",
+    "phone": "Telefon",
+    "email": "E-mel",
+    "address": "Alamat",
+    "businessHours": "Waktu Perniagaan",
+    "weekdays": "Isnin hingga Jumaat: 9:00 - 18:00",
+    "weekends": "Sabtu hingga Ahad: 10:00 - 16:00",
+    "followUs": "Ikuti Kami",
+    "sendMessage": "Hantar Mesej",
+    "name": "Nama",
+    "yourEmail": "E-mel Anda",
+    "subject": "Subjek",
+    "selectSubject": "Sila pilih subjek",
+    "generalInquiry": "Pertanyaan Umum",
+    "salesInquiry": "Pertanyaan Jualan",
+    "afterSalesService": "Perkhidmatan Selepas Jualan",
+    "complaint": "Aduan/Cadangan",
+    "other": "Lain-lain",
+    "message": "Mesej",
+    "send": "Hantar Mesej",
+    "thankYou": "Mesej anda telah berjaya dihantar. Kami akan menghubungi anda tidak lama lagi!",
+    "errorMessage": "Sila isi semua medan yang diperlukan",
+    "faq": {
+      "title": "Soalan Lazim",
+      "q1": "Bagaimana saya boleh menjadualkan tontonan kereta?",
+      "a1": "Anda boleh menjadualkan tontonan kereta melalui laman web kami atau dengan menghubungi talian khidmat pelanggan kami. Kami akan mengatur perunding jualan profesional untuk melayani anda berdasarkan jadual anda.",
+      "q2": "Adakah anda menawarkan pilihan pembiayaan?",
+      "a2": "Ya, kami bekerjasama dengan pelbagai bank dan institusi kewangan untuk menyediakan pilihan pembiayaan yang fleksibel. Sila rujuk perunding jualan kami untuk butiran lanjut.",
+      "q3": "Adakah kenderaan disertakan dengan waranti?",
+      "a3": "Semua kenderaan kami disertakan dengan sekurang-kurangnya 3 bulan waranti asas, dan anda boleh memilih untuk melanjutkan tempoh waranti. Polisi waranti khusus mungkin berbeza bergantung pada keadaan kenderaan.",
+      "q4": "Bolehkah saya menukar kereta lama saya?",
+      "a4": "Ya, kami menawarkan perkhidmatan tukar ganti. Penilai kami akan menilai kenderaan anda secara profesional dan menawarkan harga tukar ganti yang munasabah."
+    }
+  },
+  "language": {
+    "en": "English",
+    "ja": "日本語",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "zh": "中文"
+  }
+}

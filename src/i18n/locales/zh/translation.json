@@ -1,0 +1,183 @@
+{
+  "siteName": "优选二手车",
+  "nav": {
+    "home": "首页",
+    "cars": "在售车辆",
+    "blog": "汽车知识",
+    "contact": "联系我们"
+  },
+  "footer": {
+    "companyInfo": "我们提供高品质、经过严格检测的二手车，让您安心购车，放心驾驶。",
+    "quickLinks": "快速链接",
+    "contactInfo": "联系方式",
+    "subscribe": "订阅我们",
+    "subscribeText": "订阅我们的电子邮件，获取最新的车辆信息和促销活动。",
+    "yourEmail": "您的电子邮箱",
+    "thankYou": "感谢您的订阅！",
+    "allRightsReserved": "保留所有权利。"
+  },
+  "home": {
+    "hero": {
+      "title": "找到您理想的二手车",
+      "subtitle": "我们提供高品质、经过严格检测的二手车，让您安心购车，放心驾驶。",
+      "browseCars": "浏览车辆",
+      "contactUs": "联系我们"
+    },
+    "search": {
+      "title": "快速搜索您想要的车辆",
+      "brand": "品牌",
+      "allBrands": "所有品牌",
+      "priceRange": "价格范围",
+      "allPrices": "所有价格",
+      "year": "年份",
+      "allYears": "所有年份",
+      "searchButton": "搜索"
+    },
+    "featuredCars": {
+      "title": "精选车辆",
+      "subtitle": "我们精心挑选的高品质二手车，每一辆都经过专业检测和认证",
+      "viewDetails": "查看详情",
+      "viewAllCars": "查看全部车辆"
+    },
+    "whyChooseUs": {
+      "title": "为什么选择我们",
+      "subtitle": "我们致力于提供最优质的二手车和最贴心的服务",
+      "selection": {
+        "title": "精选车源",
+        "description": "我们严格筛选每一辆车，确保只提供最优质的二手车源。"
+      },
+      "quality": {
+        "title": "质量保证",
+        "description": "每辆车都经过专业检测和认证，提供详细的车况报告。"
+      },
+      "service": {
+        "title": "售后服务",
+        "description": "提供完善的售后服务和保障，让您购车无忧。"
+      }
+    },
+    "blog": {
+      "title": "汽车知识",
+      "subtitle": "了解最新的汽车资讯和购车指南",
+      "readMore": "阅读更多",
+      "viewAllArticles": "查看全部文章"
+    },
+    "cta": {
+      "title": "准备购买您的下一辆车了吗？",
+      "subtitle": "我们的专业顾问随时为您提供帮助，让您的购车体验更加轻松愉快。",
+      "browseCars": "浏览车辆",
+      "contactUs": "联系我们"
+    }
+  },
+  "cars": {
+    "title": "在售车辆",
+    "subtitle": "浏览我们精选的高品质二手车，每一辆都经过专业检测和认证",
+    "filters": {
+      "title": "筛选条件",
+      "hideFilters": "收起筛选",
+      "showFilters": "展开筛选",
+      "brand": "品牌",
+      "allBrands": "所有品牌",
+      "priceRange": "价格范围",
+      "allPrices": "所有价格",
+      "year": "年份",
+      "allYears": "所有年份",
+      "fuelType": "燃油类型",
+      "allTypes": "所有类型",
+      "gasoline": "汽油",
+      "diesel": "柴油",
+      "hybrid": "混合动力",
+      "electric": "电动",
+      "transmission": "变速箱",
+      "allTransmissions": "所有类型",
+      "automatic": "自动",
+      "manual": "手动",
+      "cvt": "CVT",
+      "location": "所在地",
+      "allLocations": "所有地区",
+      "resetFilters": "重置筛选条件"
+    },
+    "results": {
+      "found": "共找到",
+      "cars": "辆车",
+      "sortBy": "排序方式:",
+      "defaultSort": "默认排序",
+      "priceLowToHigh": "价格 (低到高)",
+      "priceHighToLow": "价格 (高到低)",
+      "yearNewToOld": "年份 (新到旧)",
+      "yearOldToNew": "年份 (旧到新)",
+      "noResults": "没有找到符合条件的车辆",
+      "resetFilters": "重置筛选条件"
+    },
+    "carDetails": {
+      "year": "年份",
+      "mileage": "里程",
+      "km": "公里",
+      "fuelType": "燃油类型",
+      "transmission": "变速箱",
+      "contactSeller": "联系卖家",
+      "scheduleViewing": "预约看车",
+      "description": "车辆描述",
+      "features": "车辆特点",
+      "similarCars": "类似车辆",
+      "backToCars": "返回车辆列表"
+    }
+  },
+  "blog": {
+    "title": "汽车知识",
+    "subtitle": "了解最新的汽车资讯、购车指南和维护技巧",
+    "search": "搜索文章...",
+    "allTags": "所有标签",
+    "readMore": "阅读更多",
+    "noResults": "没有找到符合条件的文章",
+    "resetFilters": "重置筛选条件",
+    "relatedArticles": "相关文章",
+    "backToBlog": "返回博客列表"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "如果您有任何问题或需要更多信息，请随时联系我们，我们的团队将竭诚为您服务",
+    "contactInfo": "联系方式",
+    "contactText": "如有任何疑问，请通过以下方式联系我们，我们将尽快回复您。",
+    "phone": "电话",
+    "email": "电子邮件",
+    "address": "地址",
+    "businessHours": "营业时间",
+    "weekdays": "周一至周五: 9:00 - 18:00",
+    "weekends": "周六至周日: 10:00 - 16:00",
+    "followUs": "关注我们",
+    "sendMessage": "发送消息",
+    "name": "姓名",
+    "yourEmail": "您的电子邮箱",
+    "subject": "主题",
+    "selectSubject": "请选择主题",
+    "generalInquiry": "一般咨询",
+    "salesInquiry": "购车咨询",
+    "afterSalesService": "售后服务",
+    "complaint": "投诉建议",
+    "other": "其他",
+    "message": "消息",
+    "send": "发送消息",
+    "thankYou": "您的消息已成功发送，我们将尽快与您联系！",
+    "errorMessage": "请填写所有必填字段",
+    "faq": {
+      "title": "常见问题",
+      "q1": "如何预约看车？",
+      "a1": "您可以通过我们的网站预约看车，或者直接致电我们的客服热线。我们会根据您的时间安排专业销售顾问为您服务。",
+      "q2": "你们提供分期付款吗？",
+      "a2": "是的，我们与多家银行和金融机构合作，可以为您提供灵活的分期付款方案。详情请咨询我们的销售顾问。",
+      "q3": "车辆有保修吗？",
+      "a3": "我们所有车辆都提供至少3个月的基础保修，同时您可以选择延长保修期。具体保修政策会根据车辆情况有所不同。",
+      "q4": "可以置换我的旧车吗？",
+      "a4": "可以，我们提供旧车置换服务。我们的评估师会对您的车辆进行专业评估，给出合理的置换价格。"
+    }
+  },
+  "language": {
+    "en": "English",
+    "ja": "日本語",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "zh": "中文"
+  }
+}
