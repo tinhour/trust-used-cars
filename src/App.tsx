@@ -11,7 +11,7 @@ import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/trust-used-cars">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
